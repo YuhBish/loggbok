@@ -1,3 +1,4 @@
+
 while True:
     choise=input(" [1] Läs logg\n [2] Skriv logg\n [3] Rensa logg\n [4] Avsluta\n")
     if choise=="1":
@@ -8,5 +9,6 @@ while True:
         print("Skriv logg ")
     elif choise=="4":
         print("Hejdå! ")
+        break
     else:
         print("Felaktig inmatning")
